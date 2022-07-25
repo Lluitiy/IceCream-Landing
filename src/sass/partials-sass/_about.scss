@@ -216,16 +216,18 @@
     padding: 30px;
     position: absolute;
     height: 100%;
-    top: 55px;
+    top: 180px;
     left: 0;
-    height: 810px;
+    height: 680px;
 
     @media screen and (min-width: 768px) {
-      height: 520px;
+      top: 170px;
+      height: 410px;
     }
 
     @media screen and (min-width: 1200px) {
-      height: 610px;
+      top: 175px;
+      height: 500px;
     }
 
     pointer-events: none;
