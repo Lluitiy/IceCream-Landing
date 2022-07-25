@@ -521,7 +521,6 @@
 
     transform: translate3d(0, -100%, 0);
 
-
     transition: opacity 250ms var(--animation-function),
       transform 1000ms var(--animation-function) 100ms;
 
@@ -954,7 +953,7 @@
     opacity: 1;
   }
   62% {
-    transform: rotate(0) translateX(0) cale(1.2);
+    transform: rotate(0) translateX(0) scale(1.2);
     opacity: 1;
   }
   70% {
